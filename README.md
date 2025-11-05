@@ -70,7 +70,7 @@ tictactoe/
 ## 🕹️ Cómo ejecutar el proyecto
 
 1. **Clona este repositorio:**
-   bash
+   ```bash
    git clone https://github.com/tuusuario/tictactoe.git
    
 2. **Entra al directorio del proyecto:**
