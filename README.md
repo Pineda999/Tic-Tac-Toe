@@ -15,7 +15,7 @@
 <p>
   Este proyecto fue creado con fines de práctica para fortalecer conocimientos en:
   <ul>
-    <li>Comunicación entre **frontend (JavaScript)** y **backend (Django)**</li>
+    <li>Comunicación entre frontend (JavaScript) y **backend (Django)**</li>
     <li>Uso de **fetch** para enviar datos al servidor</li>
     <li>Control de flujo del juego entre cliente y servidor</li>
     <li>Uso de **POO** y separación lógica en controladores Python</li>
@@ -23,15 +23,15 @@
 </p>
 <hr>
 
-<h1> ⚙️ Tecnologías utilizadas </h1>
-<p>
+##⚙️ Tecnologías utilizadas </h1>
+
   | Tipo | Herramientas |
   |------|---------------|
   | Backend | Django (Python) |
   | Frontend | HTML, CSS, JavaScript |
   | Estilos visuales | SweetAlert2 |
   | Control del juego | Python (controladores personalizados) |
-</p>
+
 <hr>
 
 <p>
