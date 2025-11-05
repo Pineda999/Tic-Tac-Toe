@@ -94,13 +94,11 @@ tictactoe/
    ```bash
    http://127.0.0.1:8000/
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 **Desarrollado por:** Pineda999.
-<br>
 💬 Proyecto educativo y de práctica con Django + JavaScript.
 
-🏷️ Licencia
+## 🏷️ Licencia
 Este proyecto se distribuye bajo la licencia MIT.
-<br>
 Puedes usarlo y modificarlo libremente con fines educativos o personales.
 
