@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -106,11 +107,11 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Carpeta donde Django guardará todos los archivos estáticos en producción
-STATIC_ROOT = BASE_DIR /'staticfiles'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Solo en desarrollo
 STATICFILES_DIRS = [
-    BASE_DIR /'static',
+    BASE_DIR  / 'static',
 ]
 
 # Default primary key field type
