@@ -74,16 +74,20 @@ tictactoe/
    git clone https://github.com/tuusuario/tictactoe.git
    
 2. **Entra al directorio del proyecto:**
-  cd tictactoe
+   ```bash
+   cd tictactoe
 
 3.**Instala las dependencias:**
-  pip install django
+   ```bash
+   pip install django
   
 4.**Ejecuta el servidor de desarrollo:**
-  python manage.py runserver
+   ```bash
+   python manage.py runserver
   
 5.**Abre tu navegador y visita:**
-  http://127.0.0.1:8000/
+   ```bash
+   http://127.0.0.1:8000/
 
 👨‍💻 Autor
 **Desarrollado por:** Pineda999
