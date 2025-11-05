@@ -42,6 +42,8 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 ---
 
 ## 🗂️ Estructura del proyecto
+
+```
 tictactoe/
 │
 ├── controller/
