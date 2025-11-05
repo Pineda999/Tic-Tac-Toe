@@ -104,9 +104,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Carpeta donde Django guardará todos los archivos estáticos en producción
+STATIC_ROOT = BASE_DIR /'staticfiles'
+
+# Solo en desarrollo
 STATICFILES_DIRS = [
     BASE_DIR /'static',
-    '/var/www/static',
 ]
 
 # Default primary key field type
