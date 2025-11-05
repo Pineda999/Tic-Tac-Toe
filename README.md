@@ -82,11 +82,11 @@ tictactoe/
    pip install django
   
 4.**Ejecuta el servidor de desarrollo:**
-  ```bash
+   bash
    python manage.py runserver
   
 5.**Abre tu navegador y visita:**
-   ```cpp
+   cpp
    http://127.0.0.1:8000/
 
 👨‍💻 Autor
