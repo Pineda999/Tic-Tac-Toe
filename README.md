@@ -5,7 +5,7 @@
 </p>
 <hr>
 
-<h1> 🧠 Descripción del proyecto </h1>
+<h2> 🧠 Descripción del proyecto </h2>
 <p>
   El juego muestra un tablero interactivo donde el jugador selecciona su casilla y la máquina responde automáticamente.  
   Incluye detección de ganador, control de empate y mensajes visuales usando **SweetAlert2**.
@@ -23,7 +23,7 @@
 </p>
 <hr>
 
-##⚙️ Tecnologías utilizadas </h1>
+<h2>⚙️ Tecnologías utilizadas </h2>
 
   | Tipo | Herramientas |
   |------|---------------|
@@ -35,7 +35,7 @@
 <hr>
 
 <p>
-  <h1>🚀 Funcionalidades principales</h1>
+  <h2>🚀 Funcionalidades principales</h2>
   <ul>
     <li>✅ Detección automática de ganador o empate  </li>
     <li>✅ Bloqueo de casillas tras terminar el juego  </li>
@@ -48,7 +48,7 @@
 <hr>
 
 
-  <h1> 🗂️ Estructura del proyecto </h1>
+  <h2> 🗂️ Estructura del proyecto </h2>
   tictactoe/
   │
   ├── controller/
