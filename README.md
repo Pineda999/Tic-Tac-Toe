@@ -3,7 +3,7 @@
 Un juego clásico de **Tic Tac Toe (Tres en Raya)** desarrollado con **Django** y **JavaScript**.  
 El jugador se enfrenta a la máquina, que realiza movimientos aleatorios controlados desde el backend.  
 
----
+
 
 ## 🧠 Descripción del proyecto
 
@@ -17,7 +17,6 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 - Control de flujo del juego entre cliente y servidor
 - Uso de **POO** y separación lógica en controladores Python
 
----
 
 ## ⚙️ Tecnologías utilizadas 
 
@@ -28,7 +27,7 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 | Estilos visuales | SweetAlert2 |
 | Control del juego | Python (controladores personalizados) |
 
----
+
 
 ## 🚀 Funcionalidades principales
 
@@ -39,7 +38,6 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 - ✅ Mensajes visuales con animaciones  
 - ✅ Interfaz adaptable y moderna  
 
----
 
 ## 🗂️ Estructura del proyecto
 
@@ -70,7 +68,7 @@ tictactoe/
 │
 └── manage.py
 ```
----
+
 
 ## 🕹️ Cómo ejecutar el proyecto
 
