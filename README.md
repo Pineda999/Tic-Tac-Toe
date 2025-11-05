@@ -23,7 +23,7 @@
 </p>
 <hr>
 
-<h2>⚙️ Tecnologías utilizadas </h2>
+## ⚙️ Tecnologías utilizadas 
 
   | Tipo | Herramientas |
   |------|---------------|
@@ -32,7 +32,7 @@
   | Estilos visuales | SweetAlert2 |
   | Control del juego | Python (controladores personalizados) |
 
-<hr>
+
 
 <p>
   <h2>🚀 Funcionalidades principales</h2>
@@ -45,7 +45,7 @@
     <li>✅ Interfaz adaptable y moderna  </li>
   </ul>
 </p>
-<hr>
+
 
 ## 🗂️ Estructura del proyecto
 tictactoe/
@@ -71,43 +71,29 @@ tictactoe/
 │
 └── manage.py
 
-<hr>
-<p>
-  <h2> 🕹️ Cómo ejecutar el proyecto </h2>
-  <ul>
-    <li> 1. Clona este repositorio:  
-      ```bash
-       git clone https://github.com/tuusuario/tictactoe.git
-    </li>
-    <li>
-      2.Entra al directorio del proyecto:
-      cd tictactoe
-    </li>
-    <li>
-      3.Instala las dependencias:
-      pip install django
-    </li>
-    <li>
-      4.Ejecuta el servidor de desarrollo:
-      python manage.py runserver
-    </li>
-    <li>
-      5.Abre tu navegador y visita:
-      http://127.0.0.1:8000/
-    </li>
-  </ul>
-</p>
-<hr>
 
-<p>
-  <h2> 👨‍💻 Autor </h2>
+## 🕹️ Cómo ejecutar el proyecto </h2>
+
+1. Clona este repositorio:  
+     ```bash
+     git clone https://github.com/tuusuario/tictactoe.git
+     
+2.Entra al directorio del proyecto:
+      cd tictactoe
+3.Instala las dependencias:
+      pip install django
+4.Ejecuta el servidor de desarrollo:
+      python manage.py runserver
+5.Abre tu navegador y visita:
+      http://127.0.0.1:8000/
+
+
+
+  ## 👨‍💻 Autor 
   <strong>Desarrollado por:</strong>Pineda999
   💬 Proyecto educativo y de práctica con Django + JavaScript.
-</p>
-<hr>
 
-<p>
-  <h2> 🏷️ Licencia </h2>
+
+## 🏷️ Licencia 
   Este proyecto se distribuye bajo la licencia MIT.
   Puedes usarlo y modificarlo libremente con fines educativos o personales.
-</p>
