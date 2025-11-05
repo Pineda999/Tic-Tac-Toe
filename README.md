@@ -86,7 +86,7 @@ tictactoe/
    python manage.py runserver
   
 5. **Abre tu navegador y visita:**
-   cpp
+   ```bash
    http://127.0.0.1:8000/
 
 👨‍💻 Autor
