@@ -48,7 +48,7 @@
 <hr>
 
 
-  <h2> 🗂️ Estructura del proyecto </h2>
+## 🗂️ Estructura del proyecto
 
 tictactoe/
 │
