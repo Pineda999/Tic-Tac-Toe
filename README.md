@@ -47,14 +47,17 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 tictactoe/
 │
 ├── controller/
-│ ├── custom_tags.py # Filtros personalizados para plantillas Django
-│ ├── tablaJuego.py # Lógica principal del tablero
-│ └── numeroAleatorio.py # Generación de jugadas aleatorias
+│ ├── templatetags
+│ │    └── custom_tags.py  # Filtros personalizados para plantillas Django
+│ ├── tablaJuego.py  # Lógica principal del tablero
+│ └── numeroAleatorio.py  # Generación de jugadas aleatorias
 │
 ├── static/
+│ ├── css/
+│ │   └── style.css # estilo de la pantilla juego
 │ ├── js/
-│ │ ├── tabla.js # Control de botones y turnos
-│ │ └── estiloAlert.js # Estilo de alertas con SweetAlert2
+│ │ ├── estiloAlert.js # Estilo de alertas con SweetAlert2
+│ │ └── tabla.js # Control de botones y turnos   
 │ └── imagenes/
 │ └── cat2.gif # Imagen decorativa para SweetAlert
 │
@@ -73,7 +76,7 @@ tictactoe/
 
 1. **Clona este repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/tictactoe.git
+   git clone https://github.com/Pineda999/Tic-Tac-Toe.git
    
 2. **Entra al directorio del proyecto:**
    ```bash
