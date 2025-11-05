@@ -5,9 +5,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-g*0@fh4^zxghwvo2v-(yt&52=r7dq3=l$xw=45(i(=rc7h$ga9'
 
@@ -107,11 +104,11 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Carpeta donde Django guardará todos los archivos estáticos en producción
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR,  'staticfiles')
 
 # Solo en desarrollo
 STATICFILES_DIRS = [
-    BASE_DIR  / 'static',
+    os.path.join(BASE_DIR, 'static'),
 ]
 
 # Default primary key field type
