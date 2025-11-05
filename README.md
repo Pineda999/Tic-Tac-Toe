@@ -42,7 +42,7 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 ---
 
 ## 🗂️ Estructura del proyecto
-  tictactoe/
+tictactoe/
 │
 ├── controller/
 │ ├── custom_tags.py # Filtros personalizados para plantillas Django
@@ -72,41 +72,24 @@ Este proyecto fue creado con fines de práctica para fortalecer conocimientos en
 1. **Clona este repositorio:**
    ```bash
    git clone https://github.com/tuusuario/tictactoe.git
-Entra al directorio del proyecto:
+   
+2. **Entra al directorio del proyecto:**
+  cd tictactoe
 
-bash
-Copiar código
-cd tictactoe
-Instala las dependencias:
-
-bash
-Copiar código
-pip install django
-Ejecuta el servidor de desarrollo:
-
-bash
-Copiar código
-python manage.py runserver
-Abre tu navegador y visita:
-
-cpp
-Copiar código
-http://127.0.0.1:8000/
+3.**Instala las dependencias:**
+  pip install django
+  
+4.**Ejecuta el servidor de desarrollo:**
+  python manage.py runserver
+  
+5.**Abre tu navegador y visita:**
+  http://127.0.0.1:8000/
 
 👨‍💻 Autor
-Desarrollado por: Pineda999
+**Desarrollado por:** Pineda999
 💬 Proyecto educativo y de práctica con Django + JavaScript.
 
 🏷️ Licencia
 Este proyecto se distribuye bajo la licencia MIT.
 Puedes usarlo y modificarlo libremente con fines educativos o personales.
-
-
----
-
-💡 **Ventajas del formato:**
-- Todo se alinea correctamente en GitHub.  
-- Las secciones tienen separación visual con `---`.  
-- Los bloques de código (` ```bash ` y ` ``` `) evitan errores de renderizado.  
-- Se corrigen algunos detalles tipográficos (“Esilo” → “Estilo”, etc.).
 
