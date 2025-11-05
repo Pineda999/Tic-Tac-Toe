@@ -1,37 +1,41 @@
-{% load custom_tags %}
 {% load static %}
+{% load custom_tags %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="{% static 'js/tabla.js'%}"></script>
+    <title>Tic Tac Toe</title>
 
-    <link rel="stylesheet" href="{% static 'css/style.css'%}">
-    <title>Document</title>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-   <main>
-     <p>
-        Juego Tic Tac Toe.
-     </p>
+    <main>
+        <p>Juego Tic Tac Toe</p>
         <section id="contenedor-principal">
-           {% for fila in tablero %}
+            {% for fila in tablero %}
                 <ul>
                     <li id="posiciones">
                         {% for i in rango %}
-                            <button data-pos="{{fila|index:i}}" id="bto" onclick="miclick('{{fila|index:i}}')">
-                            </button>
+                            <button data-pos="{{ fila|index:i }}" id="bto" onclick="miclick('{{ fila|index:i }}')"></button>
                         {% endfor %}
                     </li>
                 </ul>
             {% endfor %}
         </section>
-   </main>
+    </main>
+
+    <!-- Variable global para rutas estáticas -->
+    <script>
+        const staticUrl = "{% static '' %}";
+    </script>
+
+    <!-- Scripts -->
+    <script src="{% static 'js/tabla.js' %}"></script>
+    <script src="{% static 'js/estiloAlert.js' %}"></script>
 </body>
-<script>
-  const staticUrl = "{% static '' %}";
-</script>
-<script src="{% static 'js/estiloAlert.js'%}"></script>
 </html>
