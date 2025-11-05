@@ -66,7 +66,7 @@ tictactoe/
 │ └── urls.py # Rutas de acceso
 │
 └── manage.py
-
+```
 ---
 
 ## 🕹️ Cómo ejecutar el proyecto
