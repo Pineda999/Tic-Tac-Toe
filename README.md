@@ -90,8 +90,7 @@ tictactoe/
    http://127.0.0.1:8000/
 
 👨‍💻 Autor
-**Desarrollado por:** Pineda999
----
+**Desarrollado por:** Pineda999.
 💬 Proyecto educativo y de práctica con Django + JavaScript.
 
 🏷️ Licencia
