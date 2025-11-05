@@ -47,13 +47,13 @@
 </p>
 <hr>
 
-<p>
+
   <h1> 🗂️ Estructura del proyecto </h1>
   tictactoe/
   │
   ├── controller/
   │ ├──custom_tags.py/
-  │ │  └──custom_tags.py #
+  │ │  └──custom_tags.py #  Filtros personalizados para plantillas Django
   │ ├── tablaJuego.py # Lógica principal del tablero
   │ └── numeroAleatorio.py # Generación de jugadas aleatorias
   │
@@ -71,7 +71,6 @@
   │   └── views.py # Control de peticiones y respuestas JSON
   │ └──urls.py # Rutas de acceso
   │ └──manage.py
-</p>
 <hr>
 
 <p>
