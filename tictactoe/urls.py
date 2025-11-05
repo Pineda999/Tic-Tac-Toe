@@ -5,5 +5,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('juego/', views.juego, name='juego'),
+    path('', views.Partida.as_view(), name='juego'),
+    path('reiniciar/', views.reiniciar, name='reiniciar'),
 ]

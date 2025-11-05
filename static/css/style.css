@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*Se controla el alert con el GIF*/
+.swal2-container {
+  background-size: 250px 180px !important; /* controla el tamaño del GIF */
+  background-position: left top !important;
+  background-repeat: no-repeat !important;
+}
+body{
+    background-color: rgba(0, 0, 123, 0.63);
+}
+p{
+    text-align: center;
+    font-size: 6vb;
+    margin-top: 35px;
+}
+/*la etiqueta section*/
+#contenedor-principal{
+    width: 100%;
+    height: 70vh;
+    display: block;
+    margin-top: 55px;
+}
+/*la etique li*/
+#posiciones{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Estilo de botones*/
+#bto {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    border: 2px solid #5a0f4a;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+/*Efecto de los botones*/
+#bto:hover {
+  background-color: #f0f0f0;
+}
+
+#bto:active,
+#bto:focus {
+  outline: none;
+  border: 2px solid #333;
+}

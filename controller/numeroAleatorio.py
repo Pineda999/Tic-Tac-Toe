@@ -1,19 +1,16 @@
 import random
-from tablaJuego import TablaJuego
 
 class numeroRandom:
     def __init__(self):
-        self.lista_numero=[]
-    
-    def numeroAleatorio(self):
-        numeroGenerado = random.randint(1,10)
-        return numeroGenerado
-    
-    def verificarNumero(self):        
-        numerogenerado = self.numeroAleatorio()
+        self.lista_numero = []
 
-        if numerogenerado in self.lista_numero:
-            return "Todos los numeros fueron sorteados"
-        else:
-            self.lista_numero.append(numerogenerado)
-            return numerogenerado
+    def numeroAleatorio(self):
+        # Generar número entre 1 y 9 (coincide con tu tablero 3x3)
+        return random.randint(1, 9)
+
+    def verificarNumero(self, libres):
+        if  not  libres:
+            return 1
+        numero = random.choice(libres)
+        return numero
+       
