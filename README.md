@@ -1,27 +1,21 @@
-<h1> 🎮 Tic Tac Toe (Tres en Raya) </h1>
-<p>
+## 🎮 Tic Tac Toe (Tres en Raya)
   Un juego clásico de **Tic Tac Toe (Tres en Raya)** desarrollado con **Django** y **JavaScript**.  
   El jugador se enfrenta a la máquina, que realiza movimientos aleatorios controlados desde el backend.  
-</p>
-<hr>
 
-<h2> 🧠 Descripción del proyecto </h2>
-<p>
+
+## 🧠 Descripción del proyecto
   El juego muestra un tablero interactivo donde el jugador selecciona su casilla y la máquina responde automáticamente.  
   Incluye detección de ganador, control de empate y mensajes visuales usando **SweetAlert2**.
-</p>
-<hr>
 
-<p>
-  Este proyecto fue creado con fines de práctica para fortalecer conocimientos en:
+
+Este proyecto fue creado con fines de práctica para fortalecer conocimientos en:
   <ul>
     <li>Comunicación entre frontend (JavaScript) y **backend (Django)**</li>
     <li>Uso de **fetch** para enviar datos al servidor</li>
     <li>Control de flujo del juego entre cliente y servidor</li>
     <li>Uso de **POO** y separación lógica en controladores Python</li>
   </ul>
-</p>
-<hr>
+
 
 ## ⚙️ Tecnologías utilizadas 
 
@@ -34,8 +28,7 @@
 
 
 
-<p>
-  <h2>🚀 Funcionalidades principales</h2>
+## 🚀 Funcionalidades principales
   <ul>
     <li>✅ Detección automática de ganador o empate  </li>
     <li>✅ Bloqueo de casillas tras terminar el juego  </li>
@@ -44,7 +37,7 @@
     <li>✅ Mensajes visuales con animaciones  </li>
     <li>✅ Interfaz adaptable y moderna  </li>
   </ul>
-</p>
+
 
 
 ## 🗂️ Estructura del proyecto
