@@ -91,6 +91,7 @@ tictactoe/
 
 👨‍💻 Autor
 **Desarrollado por:** Pineda999
+---
 💬 Proyecto educativo y de práctica con Django + JavaScript.
 
 🏷️ Licencia
