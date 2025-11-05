@@ -48,28 +48,28 @@
 
 
 ## 🗂️ Estructura del proyecto
-tictactoe/
-│
-├── controller/
-│ ├── custom_tags.py # Filtros personalizados para plantillas Django
-│ ├── tablaJuego.py # Lógica principal del tablero
-│ └── numeroAleatorio.py # Generación de jugadas aleatorias
-│
-├── static/
-│ ├── js/
-│ │ ├── tabla.js # Control de botones y turnos
-│ │ └── estiloAlert.js # Estilo de alertas con SweetAlert2
-│ └── imagenes/
-│ └── cat2.gif # Imagen decorativa para SweetAlert
-│
-├── templates/
-│ └── juego.html # Interfaz principal del juego
-│
-├── tictactoe/
-│ ├── views.py # Control de peticiones y respuestas JSON
-│ └── urls.py # Rutas de acceso
-│
-└── manage.py
+  tictactoe/
+  │
+  ├── controller/
+  │ ├── custom_tags.py # Filtros personalizados para plantillas Django
+  │ ├── tablaJuego.py # Lógica principal del tablero
+  │ └── numeroAleatorio.py # Generación de jugadas aleatorias
+  │
+  ├── static/
+  │ ├── js/
+  │ │ ├── tabla.js # Control de botones y turnos
+  │ │ └── estiloAlert.js # Estilo de alertas con SweetAlert2
+  │ └── imagenes/
+  │ └── cat2.gif # Imagen decorativa para SweetAlert
+  │
+  ├── templates/
+  │ └── juego.html # Interfaz principal del juego
+  │
+  ├── tictactoe/
+  │ ├── views.py # Control de peticiones y respuestas JSON
+  │ └── urls.py # Rutas de acceso
+  │
+  └── manage.py
 
 
 ## 🕹️ Cómo ejecutar el proyecto </h2>
