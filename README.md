@@ -77,15 +77,15 @@ tictactoe/
    ```bash
    cd tictactoe
 
-3.**Instala las dependencias:**
+3. **Instala las dependencias:**
    ```bash
    pip install django
   
-4.**Ejecuta el servidor de desarrollo:**
-   bash
+4. **Ejecuta el servidor de desarrollo:**
+    ```bash
    python manage.py runserver
   
-5.**Abre tu navegador y visita:**
+5. **Abre tu navegador y visita:**
    cpp
    http://127.0.0.1:8000/
 
