@@ -47,7 +47,7 @@
 </p>
 <hr>
 
-
+## 🗂️ Estructura del proyecto
 tictactoe/
 │
 ├── controller/
