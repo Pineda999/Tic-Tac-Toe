@@ -23,7 +23,6 @@ class Partida(View):
             try:
                 data = json.loads(request.body)
                 posicion = int(data.get('posicion'))
-                print(posicion)
             except Exception as e:
                 return JsonResponse({'error': f'Datos inválidos: {e}'}, status=400)
 
@@ -45,7 +44,6 @@ class Partida(View):
             libres = tablajuego.posiciones_libres()
             numerorandom = numeroRandom()
             pos_maquina = numerorandom.verificarNumero(libres)
-            print(pos_maquina)
 
             if pos_maquina:
                 tablajuego.movimiento(numero=pos_maquina, simbolo='O')
