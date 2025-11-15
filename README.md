@@ -3,7 +3,7 @@
 Un juego clásico de **Tic Tac Toe (Tres en Raya)** desarrollado con **Django** y **JavaScript**.  
 El jugador se enfrenta a la máquina, que realiza movimientos aleatorios controlados desde el backend.  
 
-<img width="807" height="452" alt="tictactoe" src="https://github.com/user-attachments/assets/fdf25a19-0a9a-458a-9801-0ae4679bf325" />
+<img width="690" height="452" alt="tictactoe" src="https://github.com/user-attachments/assets/dadfc5ba-2d2d-45b5-822c-3ae0a10bd2a5" />
 
 
 ## 🧠 Descripción del proyecto
